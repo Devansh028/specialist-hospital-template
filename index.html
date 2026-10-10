@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>MEDIVERA SPECIALIST HOSPITAL | Specialist Healthcare</title>
+    <meta name="title" content="MEDIVERA SPECIALIST HOSPITAL | Specialist Healthcare" />
+    <meta name="description" content="A premium specialist hospital website template featuring departments, doctors, treatments, diagnostics, patient services and appointment booking." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="MEDIVERA Healthcare Template" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://medivera-hospital.example.com/" />
+    <meta property="og:title" content="MEDIVERA SPECIALIST HOSPITAL | Specialist Healthcare" />
+    <meta property="og:description" content="A premium specialist hospital website template featuring departments, doctors, treatments, diagnostics, patient services and appointment booking." />
+    <meta property="og:image" content="/og-preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://medivera-hospital.example.com/" />
+    <meta property="twitter:title" content="MEDIVERA SPECIALIST HOSPITAL | Specialist Healthcare" />
+    <meta property="twitter:description" content="A premium specialist hospital website template featuring departments, doctors, treatments, diagnostics, patient services and appointment booking." />
+    <meta property="twitter:image" content="/og-preview.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Anti-flicker theme script (defaults to light theme for first-time visitors; dark only if manually selected) -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('medivera_theme');
+          if (savedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white dark:bg-navy-950 dark:text-slate-100 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
